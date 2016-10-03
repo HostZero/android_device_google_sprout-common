@@ -23,7 +23,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # kernel stuff
-TARGET_KERNEL_SOURCE := kernel/mediatek/sprout
+TARGET_KERNEL_SOURCE := kernel/google/sprout
 TARGET_KERNEL_CONFIG := cyanogenmod_sprout_defconfig
 BOARD_KERNEL_CMDLINE :=
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x00000100
